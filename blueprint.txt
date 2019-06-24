@@ -1,0 +1,291 @@
+/*
+    ******* Flipping Calc *********
+    Report title *
+    Property address
+    City
+    State
+    Postal Code
+    Sales Description
+    (ARV) After Repair Value *
+    Desired Profit
+    Estimate Repair costs * - Cost Breakdown option
+    Purchase Closing Costs - Cost Breakdown option
+    Sale Closing Costs(Not including commision) - Cost Breakdown option
+    Agent Commision For selling the property
+    Monthly Holding Costs * - Cost Breakdown option
+    Number of days to complete rehab *
+
+*/
+
+/*
+    ******* Rental Property Calc *********
+    Report title *
+    Property address
+    City
+    State
+    Postal Code
+    Sales Description
+    Annual Property tax
+    MLS Number
+
+    Purchase Price *    
+    (ARV) After Repair Value *
+    Estimate Repair costs * - Cost Breakdown option
+        Exterior
+            Roof
+            Gutters/Soffit/Fascia
+            Siding
+            Exterior Painting
+            Decks/Porches
+            Concrete
+            Garage
+            Landscaping
+            Septic
+            Foundation
+            Other
+                Name - Cost
+        Interior
+            Demo
+            Sheetrock
+            Plumbing
+            Carpentry/Windows/Doors
+            Electrical
+            Interior Painting
+            HVAC
+            Cabinets/Countertops
+            Framing
+            Flooring
+            Other
+                Name - Cost
+        Other
+            Permits
+            Insects/Bugs/Termites
+            Mold
+            Miscellaneous
+
+    Purchase Closing Costs - Cost Breakdown option
+        Points/ Origination Fee
+        Perpaid Hazard Insurance
+        Prepaid Flood Insurance
+        Prepaid Property Taxes
+        Annual Assessments
+        Title and Escrow Fees
+        Attorney Charges
+        Inspection Costs
+        Recording Fees
+        Appraisal fees
+        Other Fees / Charges
+
+    Cash Purchase ? y/n
+        no?
+            Down payment of purchase price (20%?)
+            Loan interest Rate *
+            Points/Fees charged to the loan
+            Other charges from the lender
+            Loan Fees and Points *
+                wrap loan fees/points into the loan
+                Pay loan fees/points out of pocket
+            Interest only? y/n *
+            Amortized over how many years *
+        Typical cap rate for your area
+
+
+    Total gross monthly rent income
+        Unit - Rent
+    other monthly income
+        Name - Value
+
+    Fixed Landlord monthly expenses
+        Electricity
+        Water & Sewer
+        PMI (Private mortgage insurance)
+        Garbage
+        HOAs
+        Monthly Insurance
+        Property Taxes
+        Other Monthly Expenses
+    
+    Variable Landlord monthly expenses
+        Vacancy (%)? (3% - 10% of rent) ($0.00)
+        Repairs and Maintenance(%) ? (5% - 15% of rent) ($0.00)
+        Capital Expendatures(%) ? ($0.00)
+        Manageent fees (7% - 12%) ($0.00)
+    
+    Future Assumptions
+        Annual income growth (%)
+        Annual Property value growth (%)
+        Annual expenses growth (%)
+        Sales Expenses (%)
+
+
+    Sale Closing Costs(Not including commision) - Cost Breakdown option
+    Agent Commision For selling the property
+    Monthly Holding Costs * - Cost Breakdown option
+    Number of days to complete rehab *
+*/
+
+/*
+    ********* BRRRR Calc ***********
+
+    Report title *
+    Property address
+    City
+    State
+    Postal Code
+    Sales Description
+    Annual Property tax
+    MLS Number
+
+    Purchase Price *    
+    (ARV) After Repair Value *
+    Estimate Repair costs * - Cost Breakdown option
+        Exterior
+            Roof
+            Gutters/Soffit/Fascia
+            Siding
+            Exterior Painting
+            Decks/Porches
+            Concrete
+            Garage
+            Landscaping
+            Septic
+            Foundation
+            Other
+                Name - Cost
+        Interior
+            Demo
+            Sheetrock
+            Plumbing
+            Carpentry/Windows/Doors
+            Electrical
+            Interior Painting
+            HVAC
+            Cabinets/Countertops
+            Framing
+            Flooring
+            Other
+                Name - Cost
+        Other
+            Permits
+            Insects/Bugs/Termites
+            Mold
+            Miscellaneous
+
+    Purchase Closing Costs - Cost Breakdown option
+        Points/ Origination Fee
+        Perpaid Hazard Insurance
+        Prepaid Flood Insurance
+        Prepaid Property Taxes
+        Annual Assessments
+        Title and Escrow Fees
+        Attorney Charges
+        Inspection Costs
+        Recording Fees
+        Appraisal fees
+        Other Fees / Charges
+
+    Cash Purchase ? y/n
+        no?
+            Down payment of purchase price (20%?)
+            Loan interest Rate *
+            Points/Fees charged to the loan
+            Other charges from the lender
+            Loan Fees and Points *
+                wrap loan fees/points into the loan
+                or
+                Pay loan fees/points out of pocket
+            Interest only? y/n *
+            include PMI ? y/n
+            Amortized over how many years *
+        Typical cap rate for your area
+        Refinance after how many months
+        Estimate rehab time in months
+
+    Refinance Loan Details
+        Loan amount *
+        Loan interest rate *
+        other refinance closing costsor lender fees
+        Loan Fees and Points *
+            wrap loan fees/points into the loan
+            or
+            Pay loan fees/points out of pocket
+        Interest only? y/n *
+        Amortized over how many years *
+        Include PMI ? y/n
+        Typical cap rate for your area
+
+    Total gross monthly rent income
+        Unit - Rent
+    other monthly income
+        Name - Value
+
+    Fixed Landlord monthly expenses
+        Electricity
+        Water & Sewer
+        PMI (Private mortgage insurance)
+        Garbage
+        HOAs
+        Monthly Insurance
+        Property Taxes
+        Other Monthly Expenses
+    
+    Variable Landlord monthly expenses
+        Vacancy (%)? (3% - 10% of rent) ($0.00)
+        Repairs and Maintenance(%) ? (5% - 15% of rent) ($0.00)
+        Capital Expendatures(%) ? ($0.00)
+        Manageent fees (7% - 12%) ($0.00)
+    
+    Future Assumptions
+        Annual income growth (%)
+        Annual Property value growth (%)
+        Annual expenses growth (%)
+        Sales Expenses (%)
+
+
+*/
+
+
+Rehab Estimator Calc*************
+    Exterior Expenses
+        Roof
+        Ext Carpentry
+        Concrete
+        Garage
+        Landscaping
+        Painting
+        Septic
+        Foundation
+        Fences
+        Other
+    Interior Expenses
+        Demo
+        Drywall
+        Appliances
+        Plumbing
+        Carpentry
+        Electrical
+        Painting
+        HVAC
+        Flooring
+        MISC
+
+
+
+Mortgage Calc ******************
+    Loan Amount *
+    Loan Period (Years) *
+    Interest Rate *
+    Annual Taxes
+    Annual Insurance
+
+
+
+
+70% Rule *******************
+    After Repair Value *
+    Repairs Needed *
+    Extra Profit Needed
+
+Airbnb ****************
+    API
+
